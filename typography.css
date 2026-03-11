@@ -1,0 +1,419 @@
+/* RESET */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+/* PAGE */
+
+body{
+background:black;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/* TITLE SECTION */
+
+.project-title{
+width:100%;
+text-align:center;
+padding:80px 40px 5px 40px;
+}
+
+.project-title h1{
+color:#ffffff;
+font-size:40px;
+font-weight:800;
+letter-spacing:3px;
+line-height:1.1;
+}
+
+
+/* VIDEO SECTION */
+
+.video-section{
+width:100%;
+display:flex;
+justify-content:center;
+}
+
+.video-section video{
+width:80%;
+max-width:1200px;
+height:auto;
+display:block;
+}
+
+
+
+
+
+/* PROJECT BRIEF SECTION */
+
+.project-brief{
+background:black;
+padding:100px 10%;
+display:flex;
+justify-content:center;
+}
+
+
+/* layout */
+
+.brief-container{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:100px;
+max-width:1300px;
+margin:0 auto;
+}
+
+
+/* LEFT TEXT */
+
+.brief-text{
+width:50%;
+color:white;
+}
+
+.brief-text h2{
+color:#ff2d3d;
+font-size:50px;
+font-weight:900;
+margin-bottom:20px;
+margin-left: 20px;
+letter-spacing:2px;
+}
+
+.brief-text p{
+font-size:20px;
+line-height:1.7;
+margin-bottom:30px;
+margin-left: 20px;
+opacity:0.9;
+line-height:1.5;
+}
+
+
+
+/* swirl image */
+
+.brief-swirl{
+width:170px;
+margin:00px 0;
+margin-left:170px;
+
+position:relative;
+top:-40px;
+}
+
+/* RIGHT IMAGE */
+
+.brief-image{
+width:520px;
+display:flex;
+justify-content:center;
+}
+
+.brief-image img{
+width:100%;
+max-width:450px;
+border:6px solid white;
+}
+
+
+/* COLOR POSTER SECTION */
+
+.color-poster{
+background:black;
+padding:160px 10%;
+}
+
+.color-container{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:140px;
+max-width:1400px;
+margin:auto;
+}
+
+
+/* LEFT POSTER */
+
+.poster-left img{
+width:460px;
+border:6px solid white;
+}
+
+
+/* RIGHT SIDE */
+
+.right-side{
+display:flex;
+flex-direction:column;
+justify-content:center;
+max-width:420px;
+}
+
+
+/* TOP ELEMENTS (SWIRL + COLOR BAR) */
+
+.top-elements{
+display:flex;
+align-items:flex-start;
+justify-content:space-between;
+margin-bottom:40px;
+}
+
+
+/* SWIRL */
+
+.color-swirl{
+width:270px;
+transform:rotate(30deg);
+margin-right:-20px;
+margin-top:40px;
+}
+
+
+/* COLOR BAR */
+
+.colour-bar{
+width:90px;
+}
+
+/* TEXT */
+
+.color-text{
+color:white;
+font-size:20px;
+line-height:1.3;
+opacity:0.9;
+margin-top:30px;
+}
+
+
+
+/* MOTION SECTION */
+
+.motion-section{
+background:black;
+padding:160px 10%;
+}
+
+.motion-container{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:140px;
+max-width:1400px;
+margin:auto;
+}
+
+
+/* LEFT SIDE */
+
+.motion-left{
+max-width:620px;
+color:white;
+}
+
+.motion-left h2{
+color:#ff2d3d;
+font-size:50px;
+font-weight:900;
+line-height:1;
+letter-spacing:2px;
+margin-bottom:-10px;
+}
+
+.motion-left p{
+font-size:20px;
+line-height:1.5;
+opacity:0.9;
+margin-top:40px;
+line-height:1.3;
+}
+
+
+/* SWIRL */
+
+.motion-swirl{
+width:180px;
+margin:40px 0px 0px 120px;
+}
+
+
+/* VIDEO */
+
+.motion-video video{
+width:360px;
+border:6px solid white;
+}
+
+
+
+
+
+/* EXPLORATION SECTION */
+
+.exploration-section{
+background:black;
+padding:160px 10%;
+}
+
+.exploration-container{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:140px;
+max-width:1400px;
+margin:auto;
+}
+
+
+/* POSTER */
+
+.exploration-poster img{
+width:460px;
+border:6px solid white;
+}
+
+
+/* RIGHT SIDE */
+
+.exploration-content{
+max-width:520px;
+color:white;
+}
+
+.exploration-content h2{
+color:#f28c38;
+font-size:55px;
+font-weight:900;
+letter-spacing:2px;
+margin-bottom:20px;
+}
+
+
+/* SWIRL */
+
+.exploration-swirl{
+width:190px;
+margin:20px 0 40px 150px;
+}
+
+
+/* TEXT */
+
+.exploration-content p{
+font-size:20px;
+line-height:1.3;
+opacity:0.9;
+}
+
+
+
+
+/* POSTER GALLERY */
+
+.poster-gallery{
+background:black;
+padding:160px 8%;
+}
+
+.poster-row{
+display:flex;
+justify-content:center;
+align-items:flex-start;
+gap:50px;
+flex-wrap:nowrap;
+}
+
+.poster-item img{
+width:380px;
+border:6px solid #e6e6e6;
+transition: transform 0.35s ease;
+cursor:pointer;
+}
+
+.poster-item img:hover{
+transform: scale(1.15);
+}
+
+
+
+
+/* MOCKUPS SECTION */
+
+.mockups-section{
+background:black;
+padding:160px 10%;
+}
+
+.mockups-container{
+position:relative;
+max-width:1400px;
+margin:auto;
+height:700px;
+}
+
+
+/* IMAGES */
+
+.mockup{
+position:absolute;
+}
+
+
+/* WATCH */
+
+.watch{
+width:450px;
+top: -120px;
+left: -20px;
+}
+
+
+/* BUS STOP */
+
+.bus{
+width:500px;
+top:150px;
+left:200px;
+}
+
+
+/* TOTE BAG */
+
+.tote{
+width:450px;
+bottom:200px;
+left: 650px;
+}
+
+
+/* SWIRLS */
+
+.swirl{
+width:300px;
+position:absolute;
+opacity:0.9;
+}
+
+.swirl-top{
+top:-130px;
+left:450px;
+transform:rotate(-15deg);
+}
+
+.swirl-bottom{
+top: 250px;
+left:0;
+transform:rotate(210deg);
+}

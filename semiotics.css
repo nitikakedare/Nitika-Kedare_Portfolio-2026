@@ -1,0 +1,336 @@
+/* RESET */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+/* PAGE */
+
+body{
+background:#ffe4ba;
+font-family: Arial, Helvetica, sans-serif;
+color:#6d4f32;
+}
+
+
+/* TITLE */
+
+.main-title{
+text-align:center;
+font-size:48px;
+font-weight:800;
+letter-spacing:2px;
+color:#e88c30;
+margin-top:80px;
+margin-bottom:60px;
+}
+
+
+/* LAYOUT */
+
+.content-wrapper{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:100px;
+padding:40px 120px;
+}
+
+
+/* LEFT TEXT */
+
+.project-text{
+max-width:450px;
+margin-left: 20px;
+}
+
+.project-text h2{
+font-size:44px;
+font-weight:800;
+line-height:1.1;
+margin-bottom:80px;
+}
+
+.brief-title{
+font-weight:bold;
+margin-bottom:8px;
+font-size:20px;
+
+}
+
+.brief{
+font-size:20px;
+line-height:1.3;
+color:#6d4f32;
+}
+
+
+/* RIGHT SYMBOLS */
+
+.symbol-section{
+display:flex;
+gap:20px;
+align-items:center;
+}
+
+.symbol-card{
+width:350px;
+}
+
+.symbol-card img{
+width:100%;
+border-radius:20px;
+}
+
+
+
+
+.concept-section{
+padding:60px 20px;
+}
+
+.concept-container{
+display:flex;
+align-items:flex-start;
+gap:40px;
+justify-content:center;
+}
+
+/* SYMBOL GRID */
+
+.symbol-grid{
+display:grid;
+grid-template-columns: repeat(3, 200px);
+gap:20px;
+}
+
+
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+
+/* TEXT */
+
+.concept-text{
+max-width:450px;
+margin-top: 350px;
+}
+
+.concept-text h2{
+font-size:20px;
+margin-bottom:2px;
+}
+
+.concept-text p{
+font-size:20px;
+line-height:1.3;
+color:#6d4f32;
+}
+
+
+
+
+
+
+/* PAGE 3 */
+
+.poster-section{
+padding:40px 120px;
+}
+
+.poster-container{
+display:flex;
+align-items:flex-start;
+gap:100px;
+justify-content:center;
+}
+
+/* TEXT */
+
+.poster-text{
+width:300px;
+margin-top: 60px;
+}
+
+.poster-text h3{
+font-size:20px;
+margin-bottom:2px;
+}
+
+.poster-text p{
+font-size:20px;
+line-height:1.3;
+color:#6d4f32;
+margin-bottom:15px;
+}
+
+/* POSTERS */
+
+.poster-gallery{
+display:flex;
+gap:50px;
+}
+
+.poster{
+width:380px;
+}
+
+.poster img{
+width:100%;
+box-shadow:0 6px 15px rgba(0, 0, 0, 0.25);
+border-radius:4px;
+}
+
+
+
+/* PAGE 4 - THREE POSTERS */
+
+.poster-row{
+padding:90px 70px;
+}
+
+.poster-row-container{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:50px;
+}
+
+.poster-item{
+width:380px;
+}
+
+.poster-item img{
+width:100%;
+border-radius:4px;
+box-shadow:0 6px 15px rgba(0,0,0,0.25);
+}
+
+
+
+
+
+
+
+/* MOCKUPS SECTION */
+
+.mockup-section{
+padding:120px 120px;
+background:#ffe4ba;
+}
+
+.mockup-container{
+display:flex;
+justify-content:center;
+align-items:flex-start;
+gap:40px;
+}
+
+/* LEFT SIDE */
+
+.mockup-left img{
+width:500px;
+display:block;
+}
+
+.mockup-text{
+margin-top:40px;
+max-width:550px;
+}
+
+.mockup-text h3{
+font-size:20px;
+margin-bottom:10px;
+}
+
+.mockup-text p{
+font-size:20px;
+line-height:1.3;
+color:#6d4f32;
+}
+
+
+/* RIGHT SIDE */
+
+.mockup-right img{
+width:550px;
+display:block;
+}
+
+
+
+
+
+/* MOCKUP SECTION */
+
+.mockup-section{
+padding:60px 0;
+display:flex;
+justify-content:center;
+}
+
+.mockup-container{
+display:flex;
+justify-content:center;
+}
+
+
+/* GRID */
+
+.mockup-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+align-items:start;
+max-width:950px;
+width:100%;
+}
+
+
+/* LEFT SIDE */
+
+.left-images{
+display:flex;
+flex-direction:column;
+gap:30px;
+margin-left:0px;
+}
+
+.left-images img{
+width:100%;
+}
+
+.right-image img{
+width:100%;
+}
+
+
+
+
+/* FINAL OUTFIT MOCKUPS */
+
+.final-mockups{
+padding:60px 0 400px 0;
+display:flex;
+justify-content:center;
+background:#ffe4ba;
+}
+
+.final-container{
+display:flex;
+gap:60px;
+max-width:900px;
+width:100%;
+justify-content:center;
+}
+
+.mockup img{
+width:450px;
+display:block;
+}

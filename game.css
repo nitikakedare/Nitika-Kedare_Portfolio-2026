@@ -1,0 +1,523 @@
+/* RESET */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+/* PAGE */
+
+body{
+background:#F7E2A6;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/* MAIN SECTION */
+
+.cardgame-page{
+width:1200px;
+margin:auto;
+padding-top:80px;
+}
+
+
+/* TITLE */
+
+.page-title{
+text-align:center;
+margin-bottom:80px;
+}
+
+.page-title h1{
+font-size:46px;
+font-weight:800;
+color:#D28C2F;
+letter-spacing:2px;
+}
+
+
+/* LAYOUT */
+
+.game-layout{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:80px;
+}
+
+
+/* LEFT TEXT */
+
+.game-text{
+width:420px;
+}
+
+
+/* HEADING */
+
+.game-heading{
+font-size:44px;
+font-weight:800;
+color:#6B0F0F;
+line-height:1.1;
+margin-bottom:90px;
+}
+
+
+/* PARAGRAPH */
+
+.assignment-brief{
+font-size:18px;
+line-height:1.3;
+color:#6B0F0F;
+}
+
+
+/* IMAGE */
+
+.game-image img{
+width:700px;
+height:auto;
+display:block;
+}
+
+
+
+
+
+
+
+/* SECOND SECTION */
+
+.game-process{
+width:1200px;
+margin:auto;
+margin-top:100px;
+position:relative;
+height:380px;
+}
+
+
+
+/* CARD IMAGE */
+
+.cards-photo img{
+width:580px;
+height:auto;
+}
+
+
+
+/* CONCEPT TEXT */
+
+.concept-text{
+position:absolute;
+right:120px;
+top:40px;
+width:400px;
+font-size:18px;
+line-height:1.3;
+color:#7A1E1E;
+}
+
+
+
+/* MANUAL IMAGE */
+
+.manual-photo img{
+width:600px;
+height:auto;
+position:absolute;
+right:0;
+top:220px;
+}
+
+
+
+/* CARD LABEL */
+
+.card-label{
+position:absolute;
+left:90px;
+top:390px;
+text-align:center;
+font-size:30px;
+color:#7A1E1E;
+}
+
+.arrow-left{
+width:120px;
+display:block;
+margin:auto;
+margin-bottom:10px;
+transform: rotate(20deg);
+}
+
+
+
+/* MANUAL LABEL */
+
+.manual-label{
+position:absolute;
+right:660px;
+top:450px;
+text-align:center;
+font-size:30px;
+color:#7A1E1E;
+}
+
+.arrow-right{
+width:120px;
+display:block;
+margin-bottom:0px;
+transform: rotate(300deg);
+margin-left: 80px;}
+
+
+
+
+
+/* GAME CONCEPT SECTION */
+
+.game-concept-section{
+width:1200px;
+margin:auto;
+padding:330px 0 100px 0;
+}
+
+
+/* FLEX LAYOUT */
+
+.game-concept-container{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:80px;
+}
+
+
+/* LEFT TEXT */
+
+.concept-left{
+width:420px;
+}
+
+
+/* TITLE */
+
+.concept-title{
+font-size:48px;
+font-weight:800;
+color:#7a1111;
+line-height:1.3;
+margin-bottom:40px;
+}
+
+
+/* PARAGRAPH */
+
+.concept-paragraph{
+font-size:18px;
+line-height:1.3;
+color:#7a1111;
+}
+
+
+/* IMAGE */
+
+.concept-right img{
+width:750px;
+height:auto;
+display:block;
+}
+
+
+
+
+
+/* GAME GALLERY */
+
+.game-gallery{
+padding:40px 0;
+}
+
+
+/* GRID */
+
+.gallery-container{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+padding-bottom: 100px;
+
+}
+
+
+/* IMAGE */
+
+.gallery-item img{
+width:100%;
+height:auto;
+display:block;
+}
+
+
+
+
+
+
+/* MOBILE GAME SECTION */
+
+.mobile-game-section{
+background:#CFC3E6;
+width:100%;
+padding:40px 0;
+}
+
+
+/* CONTAINER */
+
+.mobile-container{
+width:1200px;
+margin:auto;
+}
+
+
+/* TITLE */
+
+.mobile-title{
+text-align:center;
+margin-top: 50px;
+margin-bottom:0px;
+}
+
+.mobile-title h1{
+font-size:48px;
+font-weight:800;
+color:#1c1111;
+}
+
+
+/* LAYOUT */
+
+.mobile-layout{
+display:flex;
+align-items:center;
+justify-content:flex-start;
+gap:60px;
+}
+
+
+/* SHIP IMAGE */
+
+.mobile-ship img{
+width:590px;
+height:auto;
+}
+
+.mobile-ship{
+margin-left:-20px;
+margin-top:-60px;
+}
+
+/* RIGHT CONTENT */
+
+.mobile-content{
+width:420px;
+margin-left:50px;
+margin-top:-20px;
+}
+
+
+/* LOGO */
+
+.mobile-logo{
+width:640px;
+margin-bottom:-60px;
+margin-left:-120px;
+}
+
+/* TEXT */
+
+.mobile-text{
+font-size:18px;
+line-height:1.3;
+color:#2e2743;
+margin-bottom: -60px;
+}
+
+
+
+
+
+/* MOBILE GAME CONCEPT SECTION */
+
+.game-concept-mobile{
+background:#CFC3E6;
+padding:40px 0;
+}
+
+
+.concept-mobile-container{
+width:1200px;
+margin:auto;
+display:flex;
+align-items:flex-start;
+justify-content:space-between;
+gap:80px;
+}
+
+
+/* LEFT TEXT */
+
+.concept-mobile-text{
+width:420px;
+margin-left: 40px;
+margin-top: 60px;
+}
+
+
+.concept-mobile-text h2{
+font-size:56px;
+font-weight:900;
+color:#1c1111;
+margin-bottom:40px;
+line-height: 1;
+}
+
+
+.concept-mobile-text p{
+font-size:20px;
+line-height:1.3;
+color:#2e2743;
+}
+
+
+/* RIGHT IMAGES */
+
+.concept-mobile-images{
+display:flex;
+gap:40px;
+}
+
+
+.concept-mobile-images img{
+width:280px;
+height:auto;
+box-shadow:0 20px 40px rgba(0,0,0,0.2);
+border-radius:10px;
+}
+
+
+
+
+
+/* PROCESS SECTION */
+
+.process-section{
+background:#CFC3E6;
+padding:80px 0;
+}
+
+.process-container{
+width:1200px;
+margin:auto;
+}
+
+.process-title{
+font-size:56px;
+font-weight:900;
+color:#1c1111;
+margin-bottom:60px;
+}
+
+
+/* LAYOUT */
+
+.process-layout{
+display:flex;
+justify-content:center;
+align-items:flex-start;
+gap:40px;
+}
+
+/* images */
+
+.process-img1{
+width:450px;
+}
+
+.process-img2{
+width:400px;
+}
+
+.process-img3{
+width:400px;
+margin-top:-40px;
+}
+
+
+
+
+.process-layout{
+display:flex;
+justify-content:center;
+align-items:flex-start;
+gap:40px;
+}
+
+/* first image */
+
+.process-img1{
+width:360px;
+height:auto;
+}
+
+/* videos */
+
+.process-video1,
+.process-video2{
+width:280px;
+height:auto;
+border-radius:10px;
+box-shadow:0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* palette image */
+
+.process-img3{
+width:300px;
+height:auto;
+margin-top:-20px;
+}
+
+
+/* GAMEPLAY ROW */
+
+.gameplay-section{
+background:#CFC3E6;
+padding:80px 0;
+}
+
+.gameplay-row{
+width:1400px;
+margin:auto;
+display:flex;
+justify-content:center;
+align-items:center;
+gap:50px;
+padding-bottom:600px;
+}
+
+/* media size */
+
+.game-media{
+width:260px;
+height:520px;
+object-fit:cover;
+border-radius:10px;
+box-shadow:0 20px 40px rgba(0,0,0,0.2);
+}
